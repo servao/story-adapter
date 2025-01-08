@@ -330,8 +330,8 @@ class StoryAdapterXL(IPAdapter):
             negative_prompt_embeds=negative_prompt_embeds,
             pooled_prompt_embeds=pooled_prompt_embeds,
             negative_pooled_prompt_embeds=negative_pooled_prompt_embeds,
-            height=1024,
-            width=1024,
+            height=512,#1024
+            width=512,#1024
             num_inference_steps=num_inference_steps,
             generator=self.generator,
             **kwargs,
