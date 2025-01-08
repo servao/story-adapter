@@ -66,7 +66,7 @@ class MLPProjModel(torch.nn.Module):
 class IPAdapter:
     def __init__(self, sd_pipe, image_encoder_path, ip_ckpt, device, num_tokens=4):
         self.device = device
-        self.image_encoder_path = image_encoder_path
+        #self.image_encoder_path = image_encoder_path
         self.ip_ckpt = ip_ckpt
         self.num_tokens = num_tokens
 
